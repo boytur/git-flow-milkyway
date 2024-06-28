@@ -4,7 +4,7 @@
   "description": "Teaching git flow and git conventional commit for milky way team3 [content here](https://github.com/boytur/git-flow-milkyway/wiki)\r test close issue",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon index.js"
   },
   "author": "",
@@ -12,5 +12,9 @@
   "dependencies": {
     "express": "^4.19.2",
     "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
