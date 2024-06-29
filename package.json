@@ -4,7 +4,7 @@
   "description": "Teaching git flow and git conventional commit for milky way team3 [content here](https://github.com/boytur/git-flow-milkyway/wiki)\r test close issue",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --forceExit",
     "start": "nodemon index.js"
   },
   "author": "",
