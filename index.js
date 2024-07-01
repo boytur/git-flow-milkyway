@@ -5,20 +5,6 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.get('/', (req, res) => {
-    try {
-        const user = ['john', 'doe', 'jane', 'doe'];
-        res.status(200).json({
-            message: 'Hello World',
-            users: user
-        });
-    } catch (err) {
-        console.error(err);
-        res.status(500).json({
-            message: "Internal Server Error"
-        });
-    }
-});
 
 app.post('/user', (req, res) => {
     try {
