@@ -6,7 +6,7 @@ describe('GET /', () => {
         const response = await request(app).get('/');
         expect(response.status).toBe(200);
         expect(response.body.message).toBe('Hello World');
-        expect(response.body.users).toEqual(['john', 'doe', 'jane', 'doe']);
+        expect(response.body.users).toEqual(['john', 'doe', 'jane', 'doe','pleng','K SudInw']);
     });
 });
 
