@@ -1,2 +1,2 @@
 # name
-Mr. Phongphisut Khenchat 
+Phongphisut Khenchat 
