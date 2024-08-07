@@ -20,6 +20,21 @@ app.get('/', (req, res) => {
     }
 });
 
+app.get('/addUser/', (req , res) => {
+    try {
+        const user = 'poom';
+        res.status(200).json({
+            message: 'create success',
+            user: user
+        })
+    }
+    catch (error) {
+        res.status(500).json({
+            message: "Internal Server Error"
+        });
+    }
+})
+
 app.post('/user', (req, res) => {
     try {
         const user = req.body;

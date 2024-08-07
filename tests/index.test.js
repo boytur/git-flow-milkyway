@@ -36,3 +36,9 @@ describe('POST /user', () => {
         expect(response.body).toHaveProperty('message', 'User required!');
     });
 });
+
+describe('GET /addUser', () => {
+    it('should return a 200 status and a JSON object with message and users', async () => {
+        const response = await request(app).get('/addUser'); 
+    });
+});
